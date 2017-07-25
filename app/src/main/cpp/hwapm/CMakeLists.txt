@@ -1,0 +1,5 @@
+# 设置${HW_APM_SOURCE_DIR}
+set(HW_APM_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
+
+# 添加子目录,将会调用子目录中的CMakeLists.txt
+ADD_SUBDIRECTORY(webrtc)
